@@ -1,1 +1,2 @@
-before use npm install
+before use 
+run command : npm install
