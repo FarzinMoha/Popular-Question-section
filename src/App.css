@@ -1,0 +1,100 @@
+/* =========================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root{
+  --darkBlue:#1e293b;
+  --lightBlue :#0f4cae;
+  --silver: #ffffff;
+  --border:#00b3fa;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "PT Serif", serif;
+}
+
+/* ========================================main (App.js)========================================= */
+.main {
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  text-align: center;
+  width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* ========================================container (Home.js)========================================= */
+
+.container{
+  border: 2px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: 100px auto 0px;
+  border-radius: 5px;
+  background-color: var(--silver);
+
+}
+
+.container-title{
+  display: flex;
+  flex: 2;
+  align-items:center;
+  justify-content: center;
+  font-size: 40px;
+  color: var(--lightBlue);
+}
+
+.container-questions{
+  display: flex;
+  flex: 4;
+}
+
+.question-list{
+  padding: 15px;
+  padding-right: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.question{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin: 10px 0px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 100%;
+  text-align: left;
+  
+
+}
+
+.question-row{
+
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.minplus-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lightBlue);
+  color: #ffffff;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin-right: 10px;
+}
